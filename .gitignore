@@ -1,3 +1,25 @@
+# Build artifacts
 build/
 sdkconfig
 sdkconfig.old
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+*~
+
+# IDE specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ESP-IDF specific
+managed_components/
+dependencies.lock
